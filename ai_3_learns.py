@@ -8,7 +8,7 @@ np.random.seed(3)
 # Here the hidden rule (which the AI does NOT know) is:  score = 2*a + 3*b + 1
 # We only show it examples. Watch it discover 2, 3, 1 on its own.
 
-examples = [([1,1],6), ([2,0],5), ([0,1],4), ([3,2],13), ([1,2],9), ([2,3],14)]
+examples = [([1,1],6), ([2,0],5), ([0,1],4), ([3,2],13), ([1,2],9), ([2,3],14)] 
 
 # start with RANDOM importance numbers -- we did NOT choose these
 w1, w2, bias = np.random.randn(3) * 0.5
